@@ -11,7 +11,6 @@ pip install -r requirements.txt
 
 2. Настройте подключение к базе данных в файле `database.py`:
    - По умолчанию используется PostgreSQL
-   - Если PostgreSQL недоступен, автоматически используется SQLite (файл `warehouse.db`)
 
 3. Запустите приложение:
 ```bash
@@ -53,4 +52,5 @@ python main.py
 - Order (заказы)
 - Receiving (поступления)
 - StorageCell (ячейки склада)
+
 
